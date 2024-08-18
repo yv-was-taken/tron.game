@@ -429,6 +429,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "bolt"
+version = "0.1.8"
+dependencies = [
+ "anchor-lang",
+ "bolt-lang",
+]
+
+[[package]]
 name = "bolt-attribute-bolt-arguments"
 version = "0.1.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -811,6 +819,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "613afe47fcd5fac7ccf1db93babcb082c5994d996f20b8b159f2ad1658eb5724"
 
 [[package]]
+name = "change_expression"
+version = "0.1.8"
+dependencies = [
+ "anchor-lang",
+ "bolt-lang",
+ "serde",
+]
+
+[[package]]
 name = "console_error_panic_hook"
 version = "0.1.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -974,6 +991,14 @@ name = "equivalent"
 version = "1.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5443807d6dff69373d433ab9ef5378ad8df50ca6298caf15de6e52e24aaf54d5"
+
+[[package]]
+name = "face"
+version = "0.1.8"
+dependencies = [
+ "anchor-lang",
+ "bolt-lang",
+]
 
 [[package]]
 name = "feature-probe"
@@ -1253,16 +1278,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "movement"
-version = "0.1.8"
-dependencies = [
- "anchor-lang",
- "bolt-lang",
- "position",
- "serde",
-]
-
-[[package]]
 name = "num-bigint"
 version = "0.4.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1349,14 +1364,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "216eaa586a190f0a738f2f918511eecfa90f13295abec0e457cdebcceda80cbd"
 dependencies = [
  "crypto-mac",
-]
-
-[[package]]
-name = "position"
-version = "0.1.8"
-dependencies = [
- "anchor-lang",
- "bolt-lang",
 ]
 
 [[package]]
