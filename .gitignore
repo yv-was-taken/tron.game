@@ -1,5 +1,17 @@
+# zig
 /zig-cache
 /zig-out
 /.zig-cache
 /solana-zig
 .COMMIT_MESSAGE
+
+# rs 
+.anchor
+.bolt
+.DS_Store
+target
+**/*.rs.bk
+node_modules
+test-ledger
+.yarn
+
